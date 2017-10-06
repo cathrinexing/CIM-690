@@ -9,36 +9,43 @@
 </head>
 
 <body>
-<style>
-    img{
-    width:300px;
-    display: inline;
+<style type="text/css">
+     img{
+    max-width:100%;
+    display: inline;     
     }
+    
+    div{border:1px grey solid;}
+    @media(max-width:767px){
+        div{background-color: grey}
+        p{color:floralwhite}
+    }
+    
+        
+   
 </style>
 
 
-<nav class="navbar  fixed-top navbar-inverse bg-primary  navbar-toggleable-sm ">
+<nav class="navbar  fixed-top navbar-inverse bg-info navbar-toggleable-sm ">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#myContent" aria-control="mycontent" aria-expanded="false" aria-lable="Toggle Navigation">
     <span class="navbar-toggler-icon"></span>
     </button>   
     
-    <div class="container">
+    <div class="container text-center">
  
-        <a href="#"  class="navbar-brand"> My Bio Card</a>
+        <a   href="#"  class="navbar-brand"> My Bio Card</a>
         
-        <div class="collapse navbar-collapse" id="myContent">
+        <div class="collapse navbar-collapse text-center" id="myContent">
          
        
         
-        <div class="navbar-nav d-flex justify-nav-item-center" >
+        <div class="navbar-nav d-flex justify-nav-item-center " >
             <a class="nav-item nav-link active" href="#">Home</a>
             <a class="nav-item nav-link " href="profession.html">profession</a>
             <a class="nav-item nav-link " href="religion.html">religion</a>
             <a class="nav-item nav-link " href="travel.html">travel</a>
             
-             
-
-        
+    
                 </div><!--navbar-nav-->
                 </div>><!--collapse-->
         
@@ -52,17 +59,19 @@
     <section class="container  text-center"  style="margin-top:60px">
             <div class="row">
             <article>
-                <img class="mx-auto"
+                <img class="col-sm-9 col-md-3"
                      src="images/home1.jpg" alt="pictureme">
-                  <img class="mx-auto"
+                  <img class="col-sm-9 col-md-3"
                      src="images/home2.jpg" alt="pictureme">
-                  <img class="mx-auto"
+                  <img class="col-sm-9 col-md-3"
                      src="images/home4.jpg" alt="pictureme">
+             
                      <h3  style="margin-top: 30px ; color:darksalmon; text-align: center">SELF-INTRODUTION</h3 >
                 <p class="container text-justify" >Hello, everyone. My name is Xing Liu，who comes from china. It is my first year to major in the interactive media design here, in the University of Miami. While it is my biocard, I am going to intruduce myshelf in the fllowing aspects. Since, i have got my master degree in china and also worked for a few years, i want to talk about my previous profession-"urban planning and design", which is  very interesting. I will show you some pictures about my design. I hope you will enjoy them. You know, I am a budhhist, so I will cover something about budhhism, which is quite different from Christianism. Lastly, as I am a girl who has great obsession with travelling, I will give a brief summarry of the places that i had been to or i want to visit in the next few years. My links are listed below.    
                 </p>
                 
                 </article>
+                 </div >
         <div class="col">
         <article style="color: aquamarine">HERE IS THE LINK</article>
         <a href="profession.html">profession</a> 
@@ -72,7 +81,7 @@
         </div>
       
                
-            </div >
+           
       
     
     
